@@ -1,5 +1,7 @@
 fun main() {
-    println(agoToText(1450))
+    print("Введите число секунд: ")
+    val time = readln().toInt()
+    println("Пользователь " + agoToText(time))
 }
 
 fun agoToText(timeAgo: Int): String { // функция возвращает время, когда пользователь был последний раз онлайн
